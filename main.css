@@ -1,0 +1,51 @@
+.header {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 100;
+  font-family: courier new;
+  }
+
+  .header:after {  background:
+    					linear-gradient(-45deg, white 16px, red 16px, blue 16px,  transparent 0),
+    					linear-gradient(45deg, white 16px, transparent 0);
+
+              background-repeat: repeat-x;
+              background-size: 22px 32px;
+              content: " ";
+              display: block;
+              height: 32px;
+    		      width: 100%;
+  }
+
+.main {
+  display: flex;
+  /*display: block;*/
+  justify-content: space-around;
+
+}
+
+h2{
+  display:inline-block;
+}
+
+ul{
+  list-style-type:none;
+  padding-left: 0;
+}
+
+li {
+  text-decoration: none;
+}
+
+.diva {
+  width: 25%;
+  padding left: 0;
+  padding-right: 0;
+  margin: 0 1px;
+}
+img{
+  width: 200px;
+  border-radius: 100px;
+}
